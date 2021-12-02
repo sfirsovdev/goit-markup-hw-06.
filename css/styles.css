@@ -757,8 +757,8 @@ ul {
 }
 
 .modal {
-  width: 500px;
-  min-height: 500px;
+  width: 528px;
+  min-height: 581px;
   background-color: var(--text-color);
   border-radius: 5px;
   position: absolute;
@@ -801,6 +801,58 @@ ul {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
+}
+
+.modal-form {
+  padding-top: 46px;
+  padding-left: 41px;
+  padding-right: 39px;
+}
+
+.modal-title {
+  padding-bottom: 12px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.2px;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+  text-align: center;
+}
+
+.form-input {
+  width: 100%;
+  height: 40px;
+}
+
+.form-input:focus + .form-label {
+  color: royalblue;
+}
+
+.form-label {
+  position: absolute;
+  bottom: 100%;
+  left: 0px;
+}
+
+.form-field {
+  margin-top: 30px;
+  position: relative;
+}
+
+.icon-form {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-color: yellow;
+}
+
+.form-input-coment {
+  width: 100%;
+  height: 120px;
 }
 
 /* CSS Porfolio ----------------------------*/
