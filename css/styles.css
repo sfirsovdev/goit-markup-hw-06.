@@ -646,7 +646,10 @@ ul {
   background-color: var(--accent-text-color);
   border-radius: 4px;
   cursor: pointer;
-  transition: color 250ms linear, background-color 250ms linear;
+}
+
+.close-icon {
+  transition: fill 250ms linear;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -780,7 +783,7 @@ ul {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: color 250ms linear, background-color 250ms linear;
+  transition: border-color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
