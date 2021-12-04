@@ -948,6 +948,10 @@ textarea::placeholder {
   height: 15px;
 }
 
+.checkbox-icon:focus {
+  border: solid 2px color var(--accent-text-color);
+}
+
 .primary-button {
   display: block;
   margin-left: auto;
