@@ -831,7 +831,8 @@ ul {
 }
 
 .form-input:focus + .input-icon {
-  fill: var(--accent-color);
+  fill: var(--accent-text-color);
+  border-color: var(--accent-text-color);
 }
 
 .form-input:focus {
@@ -842,7 +843,7 @@ ul {
   color: royalblue;
 }
 
-.form-input-coment {
+.coment {
   border: 1px solid rgba(33, 33, 33, 0.2);
   padding-top: 0;
   padding: 12px 16px;
@@ -852,7 +853,13 @@ ul {
   height: 120px;
 }
 
-.form-input-coment:focus {
+textarea::placeholder {
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.coment:focus {
   border-color: var(--accent-text-color);
 }
 
@@ -887,11 +894,6 @@ ul {
 
 .input-svg-wrap {
   position: relative;
-}
-
-.input-svg-wrap:hover,
-.input-svg-wrap:focus {
-  fill: var(--accent-text-color);
 }
 
 .agreement-field {
