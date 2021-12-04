@@ -878,6 +878,8 @@ textarea::placeholder {
 .form-field {
   margin-top: 30px;
   position: relative;
+  transition: color 250ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-field:focus {
