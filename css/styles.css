@@ -934,7 +934,13 @@ textarea::placeholder {
 }
 
 .modal-check-text::before:focus {
-  border: solid 2px purple;
+  content: "";
+  width: 16px;
+  height: 15px;
+  border: solid 2px red;
+  margin-right: 5px;
+  display: block;
+  border-radius: 2px;
 }
 
 .modal-check:checked + .modal-check-text::before {
