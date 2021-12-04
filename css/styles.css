@@ -646,6 +646,8 @@ ul {
   background-color: var(--accent-text-color);
   border-radius: 4px;
   cursor: pointer;
+  transition: background-color 250ms linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-icon {
