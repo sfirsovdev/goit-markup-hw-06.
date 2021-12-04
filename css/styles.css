@@ -933,6 +933,10 @@ textarea::placeholder {
   border-radius: 2px;
 }
 
+.modal-check-text::before:focus {
+  border: solid 2px purple;
+}
+
 .modal-check:checked + .modal-check-text::before {
   background-image: url(../images/check-box/icon\ check.svg);
   background-position: center;
@@ -946,10 +950,6 @@ textarea::placeholder {
   display: inline-block;
   width: 16px;
   height: 15px;
-}
-
-.checkbox-icon:focus {
-  border: solid 2px color var(--accent-text-color);
 }
 
 .primary-button {
