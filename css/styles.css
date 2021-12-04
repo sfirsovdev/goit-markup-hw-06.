@@ -933,16 +933,6 @@ textarea::placeholder {
   border-radius: 2px;
 }
 
-.modal-check-text:focus {
-  content: "";
-  width: 16px;
-  height: 15px;
-  border: solid 2px red;
-  margin-right: 5px;
-  display: block;
-  border-radius: 2px;
-}
-
 .modal-check:checked + .modal-check-text::before {
   background-image: url(../images/check-box/icon\ check.svg);
   background-position: center;
